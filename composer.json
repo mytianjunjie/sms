@@ -1,0 +1,9 @@
+{
+	"name": "ifecho/sms",
+	"description": "composer test package",
+	"keywords": ["sms"],
+    "homepage": "",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "require": {}
+}
