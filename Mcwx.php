@@ -15,10 +15,17 @@ namespace sms;
  */
 class Mcwx implements Sms
 {
+    protected $url = '';
 
     public function send()
     {
-        $curlObject = new Curl();
+        $data = [];
+        $curlObject = new Curl($this->url, $data);
         return $curlObject->post();
+    }
+
+    public function getData()
+    {
+        
     }
 }
